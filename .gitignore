@@ -1,13 +1,20 @@
 .DS_Store
 node_modules
-public
 /dist
+.eslintignore
+.eslintrc
+public
+
+#server
+/server/.env
+/server/node_modules
+/server/.gitignore
 
 
 # local env files
+.env
 .env.local
 .env.*.local
-.env
 
 # Log files
 npm-debug.log*
